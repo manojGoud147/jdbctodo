@@ -1,0 +1,6 @@
+2023-08-12 07:44:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+insert into TODOLIST (todo,status,priority) values (?,?,?) [42104-214]
+2023-08-15 01:28:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+select * from TODOLIST  [42104-214]
